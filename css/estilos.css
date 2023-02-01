@@ -1,0 +1,47 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Selectores basicos */
+/* Estilos por elementos HTML */
+p {
+    color: red;
+    font-size: 25px;
+}
+
+/* Estilos por Clases */
+.clase1 {
+    color: yellow;
+    font-size: 30px;
+}
+
+/* Estilos por ID's */
+#id1 {
+    color: green;
+    font-size: 35px;
+}
+
+/* Selectores avanzados */
+/* Hijos directos */
+section > p {
+    color: blue;
+    font-size: 25px;
+}
+
+/* Elemento siguiente */
+section > p + span {
+    color: rgb(0, 238, 255);
+    font-size: 30px;
+}
+
+/* Elementos despues */
+section > p ~ h3 {
+    color: rgb(201, 0, 33);
+    font-size: 25px;
+}
+
+/* Selector de atributo */
+a[href] {
+    color: brown;
+}
