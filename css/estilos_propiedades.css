@@ -1,0 +1,254 @@
+.seccion1 {
+    background-color: purple;
+}
+
+.seccion1 h2 {
+    color: white;
+}
+
+.seccion1 p {
+    color: rgb(236, 213, 6);
+}
+
+.seccion2 {
+    background-color: rgb(236, 213, 6);
+}
+
+.seccion2 h2 {
+    color: purple;
+}
+
+.seccion2 p {
+    color: purple;
+}
+
+.seccion2 article {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.seccion3 {
+    background-color: rgb(209, 31, 18);
+    color: white;
+}
+
+.seccion3 article {
+    border-style: solid;
+    border-width: 2px;
+    border-color: snow;
+    border-radius: 100px;
+}
+
+.seccion4 {
+    background-color: rgb(0, 255, 234);
+}
+
+.parrafo1 {
+    text-align: left;
+    border: 1px solid black 
+}
+
+.parrafo2 {
+    text-align: center;
+    border: 1px solid black
+}
+
+.parrafo3 {
+    text-align: right;
+    border: 1px solid black
+}
+
+.parrafo4 {
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+.parrafo5 {
+    
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+.parrafo6 {
+    vertical-align: text-bottom;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.caja {
+    line-height: 100px;
+    border: 3px solid green;
+}
+  
+.caja .parrafo4 {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: top;
+}
+  
+.caja .parrafo5 {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+  
+.caja .parrafo6 {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.seccion5 {
+    background-color: rgb(231, 110, 29);
+    height: 200px;
+    overflow: scroll; /* visible | hidden | scroll | auto */
+}
+
+.seccion6 {
+    background-color: rgb(253, 0, 0);
+    color: white;
+    width: 300px;
+    height: 300px;
+    float: right; /* left | right*/
+}
+
+.seccion7 {
+    background-color: rgb(226, 8, 8);
+    color: white;
+}
+
+.contenedor > * {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.contenedor article {
+    display: block; /* none | inline | inline-block | block */
+}
+
+.contenedor a {
+    display: inline; /* none | inline | inline-block | block */
+}
+
+.seccion8 {
+    background-color: gray;
+    color: white;
+}
+
+.contenedor2 {
+    background-color: green;
+}
+
+.contenedor2 article {
+    width: 400px;
+    height: 150px;
+    background-color: rgb(255, 174, 0);
+    border: 1px solid black;
+    position: static; /* static | relative | absolute | fixed | sticky */
+    
+    overflow: scroll;
+    top: 50px;
+    left: 300px;
+}
+
+.contenedor2 article div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(218, 1, 1);
+    border: 1px solid black;
+    position: sticky; /* static | relative | absolute | fixed | sticky */
+    top: 50px;
+    left: 50px;
+}
+
+.seccion9 {
+    background-color: rgb(7, 209, 0);
+}
+
+.seccion9 p{
+    font-size: 40px;
+    color: rgb(1, 110, 160);
+}
+
+
+
+/* .parrafo_CLASS {
+    color: white;
+}
+
+#parrafo_ID {
+    color: black;
+} */
+
+.seccion10 {
+    background-color: yellow;
+}
+
+.seccion10 p {
+    border: 1px solid black;
+}
+
+.seccion10 article {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(236, 236, 236);
+
+    margin: 20px;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.seccion10 article p {
+    
+    border: 1px solid black;
+}
+
+.seccion11 {
+    background-color: rgb(233, 160, 160);
+    /* background: linear-gradient(#e66465, #9198e5); */
+    background: radial-gradient(#e66465, #9198e5);
+    height: 500px;
+
+    /* background-image: url("../assets/imgs/carro.png"); */
+    background-position: left; /* left | center | right | top | bottom */
+    background-repeat: repeat; /* no-repeat | repeat | repeat-x | repeat-y */
+    background-size: auto; /* auto| cover | contain */
+}
+
+.seccion11 p{
+    color: white;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 3px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.seccion12 {
+    background-color: rgb(233, 160, 160);
+    height: 500px;
+}
+
+.seccion12 article {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(236, 236, 236);
+
+    margin: 20px;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.pile {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    width: 200px;
+    height: 200px;
+    border: solid black 1px;
+  }

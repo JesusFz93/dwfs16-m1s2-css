@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Propiedades</title>
+
+        <link rel="stylesheet" href="../css/estilos_propiedades.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Propiedades
+            </h1>
+        </header>
+        <main>
+            <p>En esta pagina se van a ver algunas propiedades de css</p>
+        </main>
+        <section class="seccion1">
+            <h2>Color y color de fondo</h2>
+            <p>El color de fondo se puede definir con la propiedad background-color y el color de texto con la propiedad color</p>
+        </section>
+        <section class="seccion2">
+            <h2>Width y Height</h2>
+            <p>La propiedad width define el ancho de un elemento y la propiedad height define el alto de un elemento</p>
+            <article>
+                <h3>Width</h3>
+                <p>La propiedad width define el ancho de un elemento</p>
+            </article>
+            <article>
+                <h3>Height</h3>
+                <p>La propiedad height define el alto de un elemento</p>
+            </article>
+        </section>
+        <section class="seccion6">
+            <h2>Float</h2>
+            <p>La propiedad float especifica si un elemento debe flotar a la izquierda o a la derecha, o no flotar en absoluto</p>
+        </section>
+        <section class="seccion3">
+            <h2>Bordes</h2>
+            <p>La propiedad border define el ancho, el estilo y el color de los bordes de un elemento</p>
+            <article>
+                <p>Cajita</p>
+            </article>
+        </section>
+        <section class="seccion4">
+            <h2>Alineamiento</h2>
+            <p>La propiedad text-align define el alineamiento horizontal de un elemento</p>
+            <article>
+                <p class="parrafo1">Texto alineado a la izquierda</p>
+                <p class="parrafo2">Texto alineado al centro</p>
+                <p class="parrafo3">Texto alineado a la derecha</p>
+            </article>
+            <p>La propiedad vertical-align define el alineamiento vertical de un elemento</p>
+            <article>
+                <div class="caja">
+                    <p class="parrafo4">Texto alineado arriba</p>
+                </div>
+                <div class="caja">
+                    <p class="parrafo5">Texto alineado al centro</p>
+                </div>
+                <div class="caja">
+                    <p class="parrafo6">Texto alineado abajo</p>
+                </div>
+            </article>
+        </section>
+        <section class="seccion5">
+            <h2>Overflow</h2>
+            <p>La propiedad overflow especifica qué hacer si el contenido de un elemento es más grande que el elemento</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU" alt="HTML5">
+        </section>
+        <section class="seccion7">
+            <h2>Display</h2>
+            <p>La propiedad display especifica si un elemento debe ser tratado como un bloque o como un elemento en línea</p>
+            <div class="contenedor">
+                <article>Este es un article</article>
+                <a href="#">Este es un enlace</a>
+                <p>Este es un parrafo</p>
+                <div>Este es un div</div>
+                <span>Esto es un span</span>
+            </div>
+        </section>
+        <section class="seccion8">
+            <h2>Posicion</h2>
+            <p>La propiedad position especifica el tipo de posicionamiento de un elemento</p>
+            <div class="contenedor2">
+                <article>
+                    <img src="../assets/imgs/CSS.png" alt="CSS">
+                    <div></div>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure minima odio at temporibus, repellendus provident vitae quia expedita ex perferendis, eveniet commodi quas voluptas id aspernatur. Beatae incidunt quis praesentium.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure minima odio at temporibus, repellendus provident vitae quia expedita ex perferendis, eveniet commodi quas voluptas id aspernatur. Beatae incidunt quis praesentium.</p>
+                </article>
+            </div>
+        </section>
+        <section class="seccion9">
+            <h2>Especificidad</h2>
+            <p class="parrafo_CLASS" id="parrafo_ID" >La especificidad es una forma de determinar qué reglas CSS aplican a un elemento en particular</p>
+            <!-- <p id="parrafo_ID" class="parrafo_CLASS" style="color: rgb(189, 123, 0);">La especificidad es una forma de determinar qué reglas CSS aplican a un elemento en particular</p> -->
+        </section>
+        <section class="seccion10">
+            <h2>Modelo de caja</h2>
+            <p>El modelo de caja es un concepto que se utiliza para explicar cómo se calculan los tamaños de los elementos HTML y cómo se colocan en la pantalla</p>
+            <article>
+                <p>Este es un modelo de caja</p>
+            </article>
+        </section>
+        <section class="seccion11">
+            <h2>Fondos</h2>
+            <p>La propiedad background especifica los colores de fondo para un elemento</p>
+            <p>La propiedad background especifica los colores de fondo para un elemento</p>
+        </section>
+        <section class="seccion12">
+            <img id="image" class="pile" src="../assets/imgs/HTML5.png" alt="A butterfly image" style="z-index: 1">
+
+            <div id="text1" class="pile" style="z-index: 3">
+            This text will overlay the butterfly image.
+            </div>
+
+            <div id="text2">
+            This text will be beneath everything.
+            </div>
+
+            <div id="text3" class="pile" style="z-index: 2">
+            This text will underlay text1, but overlay the butterfly image
+            </div>
+        </section>
+    </body>
+</html>
