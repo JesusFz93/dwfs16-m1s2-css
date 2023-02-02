@@ -41,7 +41,26 @@ section > p ~ h3 {
     font-size: 25px;
 }
 
-/* Selector de atributo */
+/* Elementos atributo. */
 a[href] {
-    color: brown;
+    font-weight: bold;
+    color: pink;
 }
+
+  /* Elementos atributo valor. */
+a[href="https://www.google.com/"] {
+    font-weight: bold;
+    color: orange;
+}
+
+a:focus {
+    color: red;
+}
+
+a:hover {
+    color: rgb(0, 247, 255);
+}
+
+/* a:visited {
+    color: rgb(21, 255, 0);
+} */
