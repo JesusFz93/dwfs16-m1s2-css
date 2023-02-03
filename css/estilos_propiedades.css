@@ -1,3 +1,13 @@
+/* @font-face {
+    font-family: "SimpsonsFont";
+    src: url("/assets/fonts/Simpsonfont.otf") format("truetype");
+  }
+
+  body {
+    font-family: SimpsonsFont, "Arial Narrow", Arial, sans-serif;
+    min-height: 100vh;
+  } */
+
 .seccion1 {
     background-color: purple;
 }
