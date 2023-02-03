@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(30, 27, 27);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+header nav ul li {
+  padding: 16px;
+
+  display: inline-block;
+  font-size: 16px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header nav ul li a:hover, header nav ul li a:focus {
+    color: lightgreen;
+}
+
+main {
+    background-color: rgb(29, 117, 222);
+    padding: 50px 150px;
+}
