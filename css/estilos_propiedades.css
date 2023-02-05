@@ -109,9 +109,10 @@
 }
 
 .seccion5 {
-    background-color: rgb(231, 110, 29);
+     background-color: rgb(231, 110, 29);
     height: 200px;
-    overflow: scroll; /* visible | hidden | scroll | auto */
+    overflow: scroll;
+    /*overflow: scroll; visible | hidden | scroll | auto */
 }
 
 .seccion6 {
@@ -140,6 +141,12 @@
 
 .contenedor a {
     display: inline; /* none | inline | inline-block | block */
+}
+
+#bloque {
+    height: 20px;
+    width: 500px;
+    display: inline-block;
 }
 
 .seccion8 {

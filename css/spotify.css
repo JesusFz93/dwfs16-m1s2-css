@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-  font-size: 2rem;
+  font-size: 32px;
 }
 
 header nav ul {
@@ -44,4 +44,37 @@ header nav ul li a:hover, header nav ul li a:focus {
 main {
     background-color: rgb(29, 117, 222);
     padding: 50px 150px;
+    color: white;
 }
+
+main h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+main p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+main button {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+}
+main div {
+  margin-top: 30px;
+}
+main div a {
+    color: white;
+}
+
+.seccion_planes {
+    background-color: rgb(137, 141, 146);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
